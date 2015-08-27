@@ -19,7 +19,7 @@
             exit();
             
             }
-            /* mysqli_select_db($conexion, $db_nombre) or die ("no se encuentra la base de datos").. para usar esta funcion se tenie que eliminar el parametro $db_nombre de $conexion, esto se usa para mostrar un mensaje si el nombre de la base de datos esta mal escrito o no se encuetra */
+    /* mysqli_select_db($conexion, $db_nombre) or die ("no se encuentra la base de datos").. para usar esta funcion se tenie que eliminar el parametro $db_nombre de $conexion, esto se usa para mostrar un mensaje si el nombre de la base de datos esta mal escrito o no se encuetra */
             
             mysqli_set_charset($conexion, "utf8");
 
