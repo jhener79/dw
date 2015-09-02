@@ -14,7 +14,7 @@
 		$db_host="localhost";
 		$db_nombre="pruebas";
 		$db_usuario="root";
-		$db_contraseña="";
+		$db_contraseña="root";
 		
 		$conexion=mysqli_connect($db_host,$db_usuario,$db_contraseña,$db_nombre);
 		if(mysqli_connect_errno()){
