@@ -1,0 +1,371 @@
+@import url(//fonts.googleapis.com/css?family=Niconne|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700);
+
+body,
+input,
+select,
+textarea,
+input.Textbox,
+input[type="text"],
+#SearchForm input,
+.HorizontalFormContainer dd .selector span,
+.fastCartTop div,
+.list-icon li {
+  color: #757575; 
+}
+.CurrencyList dd,
+#SearchForm .Button,
+#SearchForm input.Textbox,
+select,
+hr,
+input.Textbox,
+textarea,
+input[type="text"],
+input[type="password"],
+.QuickSearch,
+.SharePublicWishList,
+.ExpressCheckoutBlock .ExpressCheckoutTitle,
+.TabNav li a,
+.HowToPay,
+.NotifyMessage,
+.QuickSearchResult .QuickSearchResultImage,
+.CurrencyChooser,
+.selected-currency,
+div.uploader,
+div.selector,
+.recaptchatable {
+  border: 1px solid #e2e2e2;
+}
+a,
+.Left li li a,
+.Left #SideCategoryList li a,
+.Left .slist li a,
+.Left .afterSideShopByBrand a,
+.Left #GiftCertificatesMenu li a,
+.Left #SideAccountMenu li a,
+.Left #SideCategoryList li li a,
+.Left .slist li li a,
+.TabNav li.Active a,
+.ModalContent h4 a:hover,
+.footer a:hover {
+  color: #f75f31;
+}
+body{
+	background-color: #fff;
+	font-size: 14px;
+	font-family: Arial,Sans-Serif;
+	font-weight: 400;
+	-webkit-text-size-adjust: 100%;
+	margin: 0 0 0 0;
+}
+body.crafted
+{
+	font-family: 'Open Sans', 'Arial', 'sans-serif';
+	background-color: #9edad6;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin: 0;
+    padding: 0;
+}
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'Open Sans', 'Arial', 'sans-serif';
+  color: #9a6f53;
+  font-weight: 600;
+}
+h1, .h1 {
+	font-family: 'Open Sans', 'Arial', 'sans-serif';
+	color: #9a6f53;
+}
+a{
+	text-decoration: none;
+	font-weight: inherit;
+}
+ul{
+	margin: 0 0 20px 20px;
+}
+.page
+{
+	background: #f5f5f1;
+}
+.header
+{
+	background: #f5f5f1;
+}
+.inner:after
+{
+	clear: both;
+	content: "";
+	display: table;
+}
+.TopMenu {
+  	border-bottom: 1px solid #e2e2e2;
+	color: #505050;
+  	background: #ffffff;
+  	font-size: 12px;
+	margin: 0 0 20px 0;
+}
+.TopMenu > .inner,
+#Header > .inner,
+.PageMenu > .inner,
+.main > .inner,
+.footer-main > .inner,
+.footer-links > .inner,
+.newsletter-subscription > .inner {
+  max-width: 940px;
+  width: 80%;
+  padding: 10px 0;
+}
+.TopMenu > .inner, 
+#Header > .inner, .PageMenu > 
+.inner, .main > .inner, 
+.footer-main > .inner, 
+.footer-links > .inner, 
+.newsletter-subscription > .inner {
+    margin: 0 auto;
+}
+.TopMenu .acctOptions .name{
+	margin-right: 1em;
+	font-size: 14px;
+}
+.TopMenu ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.TopMenu li{
+	border-right: 1px solid #e2e2e2;
+	padding: 0 10px 0 6px!important;
+	display: inline-block;
+	white-space: nowrap;
+	list-style: none;
+	margin: 0;
+	line-height: 14px;
+	padding: 0 10px;
+}
+.TopMenu a{
+	color: #6a6a6a;
+}
+.TopMenu a:hover{
+	color: #f75f31 !important;
+}
+.TopMenu .name a{
+	color: #f75f31 !important;
+}
+.loginOut{
+	text-transform: capitalize;
+}
+#Header{
+	position: relative;
+	margin-bottom: 20px;
+}
+.TopMenu #Header{
+	margin-bottom: 10px;
+}
+.logoUSPWrap{
+	position: relative;
+	overflow: hidden;
+}
+.header-logo{
+	width: 38%;
+	text-align: left;
+	float: left;
+}
+.header-logo h1{
+	font-size: 40px;
+}
+.header-logo a{
+	color: #9a6f53;
+}
+.header-logo img {
+  margin: inherit;
+  display: inline;
+}
+#LogoContainer h1 a span{
+	font-family: "Niconne", "Times New Roman", Georgia, serif;
+	font-size: 70px;
+	font-weight: normal;
+}
+.usp{
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+.usp .title {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+.usp .title,
+.usp .desc {
+  display: block;
+}
+.usp p {
+  margin-top: 5px;
+}
+.usp i {
+  line-height: inherit;
+  font-size: 34px;
+  vertical-align: middle;
+  padding-top: 3px;
+}
+.usp li{
+	list-style-type: none;
+	width: 45%;
+	margin-left: 4%;
+	display: inline-block;
+	vertical-align: top;
+}
+.usp .circle{
+	color: #7cd3cd;
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	border-radius: 100%;
+	line-height: 63px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.PageMenu .inner{
+	background: #7cd3cd;
+}
+.PageMenu{
+	position: relative;
+	z-index: 50;
+	margin: 0 0 20px 0;
+}
+.cf:after {
+	clear: both;
+}
+.cf:before{
+	content: " ";
+	display: table;
+}
+#SearchForm{
+	position: relative;
+	float: none;
+	width: 300px;
+}
+.searchDesktop #SearchForm{
+	width: 34%;
+	float: left;
+	margin: 6px 0 0 6px;
+}
+#SearchForm form{
+	padding: 0;
+	margin: 0;
+}
+#SearchForm label{
+	display: none;
+}
+#SearchForm input{
+	border-right: 0;
+	font-size: 13px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 1em;
+	margin: 0;
+	float: left;
+	width: 80%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#SearchForm input#search_query {
+    border-right-width: 0 !important;
+}
+#SearchForm .Button {
+	background-color: #fca88f;
+	margin-left: -5px;
+	background-image: none;
+	color: #ffffff;
+	 cursor: pointer;
+    border: 0 !important;
+    vertical-align: top;
+    margin: 0;
+    width: 20%;
+    height: 35px;
+    padding: 0;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-transition: background-color 150ms ease;
+    -webkit-transition: background-color 150ms ease;
+    -o-transition: background-color 150ms ease;
+    transition: background-color 150ms ease;
+}
+#SearchForm p {
+    display: none;
+    font-size: 0.85em;
+    margin: 5px 0 0 0;
+}
+.PageMenu ul{
+	border-bottom: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+}
+.PageMenu .CategotyList{
+	width: 60%;
+	padding-left: 20px;
+}
+.PageMenu #SideCategoryList{
+	float: left;
+}
+.PageMenu h3{
+	display:  none;
+}
+.sf-menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header .sf-menu{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header .sf-menu li{
+	background: #7cd3cd;
+	white-space: nowrap;
+	/* no need for Supersubs plugin */
+	*white-space: normal;
+	/* ...unless you support IE7 (let it wrap) */
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+.header .sf-menu > li{
+	float: left;
+}
+.header .sf-menu a{
+	display: block;
+	position: relative;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 12px;
+	text-decoration: none;
+	zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
