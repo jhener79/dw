@@ -72,7 +72,7 @@
 			<div class="inner">
 				<div class="searchDesktop">
 					<div id="SearchForm" class="cf" style="display: block;">
-						<form action="search.php" method="get" onsubmit="return">
+						<form action="productos.php" method="get" onsubmit="return">
 							<label for="search_query">Buscar</label>
 							<input type="text" name="search_query" id="search_query" class="Textbox autobox default" value="" autocomplete="off" placeholder="Search ">
 							<input type="submit" class="Button" value="Search" name="Search" title="Search">
