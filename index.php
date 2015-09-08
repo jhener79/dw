@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<title>Ecommerce Libreria</title>
 	<meta charset="UTF-8">
@@ -6,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/productos.js"></script>
 </head>
 
 <body id="home" class="crafted">
@@ -98,7 +102,51 @@
 		</div>
 		</div>
 		<div class="main">
-			<div class="inner">hola</div>
+			<div class="inner">
+				<div class="Content Widest" id="LayoutColumn1">
+					<div class="feature">
+						<div class="slideWrap">
+							<div id="featureSlide" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+								<div class="owl-wrapper-outer">
+									<div class="owl-wrapper">
+										<div class="owl-item">
+											<div class="slide item">
+												<span class="slide-image-wrapper">
+													<img class="slide-image" src="images/corousel-img1.jpg" alt>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="featuredProducts">
+						<div class="productSlide">
+							<div class="prods-cnt">
+		        				<div id="list" class="list "></div>
+		        				<div id="grid" class="grid"></div>
+		        				<div class="clear"></div>
+		        				<div class="prod-box shadow">
+		           					<img src="images/product1.jpg">
+		            				<div class="buy-ico"></div>
+		            				<h3>
+		                				<a href="#">Feather Dress With Embellished Lace Top</a>
+		            				</h3>
+		            				<div class="price-cnt">
+		                			<div class="price old">$96.00</div>
+		               				<div class="price">$45.00</div>
+		            				</div>
+		            				<p>
+		                				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+		            				</p>
+		        				</div><!-- end product box prod-box -->
+		    				</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
+</html>

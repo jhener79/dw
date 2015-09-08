@@ -49,6 +49,46 @@ a,
 .footer a:hover {
   color: #f75f31;
 }
+p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.border-radius,
+.ProductList li,
+.bio,
+.Button,
+.btn,
+.PageMenu .inner,
+#SearchForm .Button,
+.ProductList .ProductImage,
+.CategoryDescription,
+.banner_home_page_bottom p img,
+#featureSlide,
+.bioBanner .banner,
+.profile,
+.banner_home_page_bottom p img,
+.banner_home_page_bottom p img,
+.banner_category_page_bottom p img,
+.banner_brands_page_bottom p img,
+.banner_brand_page_bottom p img,
+.banner_search_page_bottom p img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+table tbody tr td,
+table.General tbody tr td,
+table,
+table.General,
+table.CartContents {
+    margin: 20px 0;
+}
+img, img a{
+	border: 0;
+}
 body{
 	background-color: #fff;
 	font-size: 14px;
@@ -333,7 +373,7 @@ ul{
 	background: #7cd3cd;
 	white-space: nowrap;
 	/* no need for Supersubs plugin */
-	*white-space: normal;
+	white-space: normal;
 	/* ...unless you support IE7 (let it wrap) */
 	-webkit-transition: background .2s;
 	transition: background .2s;
@@ -351,6 +391,111 @@ ul{
 	text-decoration: none;
 	zoom: 1;
 }
+.Content{
+	overflow: hidden;
+	padding-bottom: 20px;
+	min-height: 200px;
+}
+#home .inner .Content, .inner .productlist-page .Content{
+	background-color: inherit;
+	padding: inherit;
+	margin-bottom: inherit;
+	border: none;
+}
+.Content.Widest{
+	padding: 0;
+	border: none;
+}
+.feature{
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+.slideWrap{
+	overflow: hidden;
+	background-color: #f5f5f1;
+}
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%
+}
+.owl-carousel .owl-wrapper:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+div.owl-wrapper{
+	width: 5640px;
+	left: 0px;
+	display: block;
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
+	-webkit-transform: translate3d(-1880px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+}
+.owl-carousel .owl-wrapper{
+	/*display: none;*/
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+div.owl-item{
+	width: 940px;
+}
+.owl-carousel .owl-item{
+	float: left;
+}
+.slide-content{
+	max-height: 450px;
+}
+.slideText{
+	position: absolute;
+	margin: 0;
+}
+table.slideText{
+	height: 432px;
+	width: 940px;
+}
+.crafted table{
+	text-align: left;
+	width: 100%;
+}
+h2.slide-heading{
+	color: #ffffff;
+}
+.slideWrap .slide-content h2{
+	font-weight: 300;
+	font-size: 41px;
+	line-height: 1;
+}
+p.slide-text{
+	color: #ffffff;
+}
+.slideWrap .slide-text{
+	margin-bottom: 20px;
+	display: block;
+}
+#featureSlide .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
 
 
@@ -359,13 +504,5 @@ ul{
 
 
 
-
-
-
-
-
-
-
-
-
+ 
 
